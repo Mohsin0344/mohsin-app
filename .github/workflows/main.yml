@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://bootcamp_session2.surge.sh/ --token ${{secrets.mohsin_app}}
+      run: surge ./build http://mohsinn-app.surge.sh/ --token ${{secrets.mohsin_app}}
